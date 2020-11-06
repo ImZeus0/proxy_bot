@@ -4,7 +4,7 @@ from telebot.types import InlineKeyboardButton,KeyboardButton,ReplyKeyboardMarku
 def main_menu():
     k = ReplyKeyboardMarkup(resize_keyboard=True)
     k.add(KeyboardButton("Buy proxy"),KeyboardButton("Account"))
-    k.add(KeyboardButton(KeyboardButton("FAQ")))
+    k.add(KeyboardButton("FAQ"))
     return k
 
 def account_buttons(id):
